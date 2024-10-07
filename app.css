@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff79;
+}
+
+@font-face {
+    font-family: Titulo;
+    src: url(./OldNewspaperTypes.ttf);
+}
+
+header {
+    background-color: #126d70;
+    color: #ffffff;
+    padding: 15px;
+    text-align: center;
+    border-radius: 5px;
+    font-family: Titulo;
+    background-image: url(https://i.pinimg.com/originals/4b/f9/9e/4bf99e54d7154f1ee5d2ef3482381555.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 40px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 5px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+    
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+main {
+    padding: 50px;
+    width: 75%;
+    margin: auto;
+}
+
+h2 {
+    color: #3ea051;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #24c760;
+    padding: 10px;
+    text-align: left;
+}
+
+figure {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px green;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #10f2aa;
+    border-radius: 5px;
+}
+
+form button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #0ac420;
+    color: rgb(241, 244, 242);
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    /* background-color: #0f7c33; */
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 20px;
+    background-image: url(https://i.pinimg.com/originals/a2/4c/b5/a24cb568fa40046f8562dbc45cea8506.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h3 {
+    color: #076429;
+}
+
+p {
+    font-size: 20px;
+}
+
+button {
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 10px;
+    background-image: url(https://i.pinimg.com/originals/ac/a6/5c/aca65c539244e788b2c8e54a464d5cf3.gif);
+}
+
+button:hover {
+    background-color: #0f7c3b;
+}
